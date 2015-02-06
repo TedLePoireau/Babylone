@@ -16,6 +16,12 @@
     <Filter Include="Header Files\Babylone">
       <UniqueIdentifier>{88b8ec52-12fb-433d-ba8d-17c3969e5830}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\API">
+      <UniqueIdentifier>{19ce62a4-1cc2-4b79-9309-c249770cd5ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\API">
+      <UniqueIdentifier>{4542cdf2-dd6a-4332-b370-ae4c6d7fb6ab}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -25,13 +31,13 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\thjx-api\c++\api.cc">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\API</Filter>
     </ClCompile>
     <ClCompile Include="..\thjx-api\c++\example.cc">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\API</Filter>
     </ClCompile>
     <ClCompile Include="..\thjx-api\c++\json.cc">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\API</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -42,10 +48,10 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\thjx-api\c++\api.hh">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\API</Filter>
     </ClInclude>
     <ClInclude Include="..\thjx-api\c++\json.hh">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\API</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
