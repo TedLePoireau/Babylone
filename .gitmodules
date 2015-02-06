@@ -1,0 +1,3 @@
+[submodule "Babylone/thjx-api"]
+	path = Babylone/thjx-api
+	url = https://bitbucket.org/Maikorn/thjx-api.git
