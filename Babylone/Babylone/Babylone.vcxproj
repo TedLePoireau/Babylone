@@ -64,10 +64,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\thjx-api\c++\api.cc" />
+    <ClCompile Include="..\..\thjx-api\c++\example.cc" />
+    <ClCompile Include="..\..\thjx-api\c++\json.cc" />
+    <ClCompile Include="BabyloneSolver.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\thjx-api\c++\api.hh" />
+    <ClInclude Include="..\..\thjx-api\c++\json.hh" />
     <ClInclude Include="Babylone.h" />
+    <ClInclude Include="BabyloneSolver.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
